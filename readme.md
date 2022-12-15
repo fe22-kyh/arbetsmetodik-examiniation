@@ -13,7 +13,7 @@ Inlämning ska innehålla minst 1 jasmine test baserat på en user story. Inga k
 
 Finns inget krav på responsive design.
 
-## Data
+## !Ny - Data
 
 Mock data för framtida meny, använd [db.js](db.js) i implementation.
 
