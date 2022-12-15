@@ -13,6 +13,23 @@ Inlämning ska innehålla minst 1 jasmine test baserat på en user story. Inga k
 
 Finns inget krav på responsive design.
 
+## Data
+
+Mock data för framtida meny, använd [db.js](db.js) i implementation.
+
+Lägg till i html som en javascript fil 
+```html
+<script src="db.js"></script>
+```
+
+använd i javascript som ett object literal
+```js
+console.log(db.pagination) // samtliga kategorier tillgänglig i db
+
+//ex.
+console.log(db.bbqs) // lista med bbqs
+```
+
 ## Bedömning
 
 Innan deadline ska en indivudell videopresentation skickas in via omnius. Videon måste uppfylla följande tekniska krav:
